@@ -1,0 +1,7 @@
+# Ignorer le fichier .env pour ne pas partager les identifiants API
+.env
+
+# Ignorer les fichiers temporaires et de configuration
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
