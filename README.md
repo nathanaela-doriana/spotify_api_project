@@ -24,7 +24,7 @@ Ce projet utilise l'API de Spotify pour récupérer des informations sur les mor
    
     SPOTIPY_CLIENT_SECRET="votre_client_secret"
    
-    SPOTIPY_REDIRECT_URI="votre_redirect_uri"
+    SPOTIPY_REDIRECT_URL="votre_redirect_url"
 
 
 5. Lancer le notebook Jupyter pour analyser et visualiser les données :
