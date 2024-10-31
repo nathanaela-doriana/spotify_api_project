@@ -24,7 +24,8 @@ Ce projet utilise l'API de Spotify pour récupérer des informations sur les mor
     SPOTIPY_CLIENT_SECRET="votre_client_secret"
     SPOTIPY_REDIRECT_URI="votre_redirect_uri"
 
-4. Lancer le notebook Jupyter pour analyser et visualiser les données :
+
+5. Lancer le notebook Jupyter pour analyser et visualiser les données :
    jupyter notebook notebooks/spotify_analysis.ipynb
 
 ## Utilisation
