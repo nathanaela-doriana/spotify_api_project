@@ -21,7 +21,9 @@ Ce projet utilise l'API de Spotify pour récupérer des informations sur les mor
 3. Configurez vos identifiants API en créant un fichier .env avec les informations suivantes :
 
     SPOTIPY_CLIENT_ID="votre_client_id"
+   
     SPOTIPY_CLIENT_SECRET="votre_client_secret"
+   
     SPOTIPY_REDIRECT_URI="votre_redirect_uri"
 
 
