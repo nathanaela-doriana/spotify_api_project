@@ -22,11 +22,22 @@ Ce projet utilise l'API de Spotify pour récupérer des informations sur les mor
 
 ## Configuration des API 
 
-Un fichier .env est inclus temporairement dans ce dépôt pour faciliter l'évaluation de l'exercice. Ce fichier contient les identifiants d'API nécessaires pour se connecter à l'API Spotify. Ces identifiants seront supprimés après l'évaluation.
+1. Configurez vos identifiants API en copiant le fichier .env.example en .env :
+cp .env.example .env
+
+2. Ouvrez le fichier .env et ajoutez vos identifiants API Spotify :
+
+    SPOTIPY_CLIENT_ID="votre_client_id"
+
+    SPOTIPY_CLIENT_SECRET="votre_client_secret"
+
+    SPOTIPY_REDIRECT_URI="votre_redirect_uri"
+
 
 
 Lancer le notebook Jupyter pour analyser et visualiser les données :
    jupyter notebook notebooks/spotify_analysis.ipynb
+   
 
 ## Utilisation
 Dans le notebook spotify_analysis.ipynb, vous trouverez des étapes pour :
