@@ -1,5 +1,5 @@
 # Ignorer le fichier .env pour ne pas partager les identifiants API
-.env
+#.env
 
 # Ignorer les fichiers temporaires et de configuration
 __pycache__/

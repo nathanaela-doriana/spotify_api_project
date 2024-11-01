@@ -18,9 +18,9 @@ Ce projet utilise l'API de Spotify pour récupérer des informations sur les mor
 2. Installez les dépendances :
    pip install -r requirements.txt
 
-3. Configuration des identifiants API
-   
-    Un fichier .env est inclus temporairement dans ce dépôt pour faciliter l'évaluation de l'exercice. Ce fichier contient les identifiants d'API nécessaires pour se connecter à l'API Spotify. Ces identifiants seront supprimés après l'évaluation.
+3. Configuration des API 
+
+Un fichier .env est inclus temporairement dans ce dépôt pour faciliter l'évaluation de l'exercice. Ce fichier contient les identifiants d'API nécessaires pour se connecter à l'API Spotify. Ces identifiants seront supprimés après l'évaluation.
 
 5. Lancer le notebook Jupyter pour analyser et visualiser les données :
    jupyter notebook notebooks/spotify_analysis.ipynb
